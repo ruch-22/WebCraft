@@ -1,0 +1,206 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    display: flex;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display:flex;
+}
+
+.add-icon{
+display: flex;
+margin-left:1px;
+}
+
+
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+.navbar ul li a:hover {
+    background-color: #333;
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background-image: url('https://www.investopedia.com/thmb/-TJZnLPUhmp1_CRJVY89cgqZ9l0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1388783485-856f086ba51d4b59b57c4b8871f4a808.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(253, 252, 250);
+    text-align: center;
+    flex-direction: column;
+}
+/**herosection**/
+.container {
+    display: flex;
+}
+
+.search-input{
+    height: 30px;
+    width: 300px; ;
+}
+.herosection1{
+    height: 400px;
+    width: 600px;
+    text-align: center;
+    
+    }
+    .herosection{
+        height: 400px;
+        width: 600px;
+        background-image:url('https://img.freepik.com/free-vector/gradient-mini-car-illustration_52683-130177.jpg?t=st=1730629481~exp=1730633081~hmac=412d06adce4d3f87a6ea06f2adb5797e5602d02aad5e4d1fc8f42f9e1488c5d8&w=900');
+        }
+        .empty {
+            height: 200px;
+            
+        }
+.contain{
+    height: 400px;
+    background-color: #000;
+}
+.contain h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.contain p {
+    color: rgb(255, 255, 255);
+}
+.down{
+    height: 200px;
+    
+}
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 15px 30px;
+    background-color: #ffb100;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #ff8c00;
+}
+
+/* Main Content */
+.main-content {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.main-content h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.main-content p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.footer .social-icons a:hover {
+    color: #ffb100;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .main-content h2 {
+        font-size: 28px;
+    }
+}
